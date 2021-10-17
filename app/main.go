@@ -13,7 +13,7 @@ func main() {
 		io.WriteString(w, "Solicitaste prueba1")
 	})
 
-	http.HandleFunc("/prueba2", func(w http.ResponseWriter, peticion *http.Request) {
+	http.HandleFunc("/prueba2", func(w http.Response1Writer, peticion *http.Request) {
 		io.WriteString(w, "Solicitaste prueba2")
 	})
 
