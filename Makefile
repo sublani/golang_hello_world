@@ -23,4 +23,4 @@ build:
 docker_up:
 	docker build -t api:0.1.0 . 
 	docker-compose -f docker/docker-compose.api.yml up -d
-	docker logs docker_app_1 -f
+	docker logs docker_app_1 
